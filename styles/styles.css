@@ -507,3 +507,93 @@ h2{
     font-style: italic;
   }
   /* hire section styles ended */
+
+  /* contact section styles started */
+#contact_section{
+    background-color: var(--ColorTwo);
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+  }
+  
+  #contact_section .idea_box{
+    width: 650px;
+    padding: 0px 80px;
+    box-sizing: border-box;
+  }
+  
+  #contact_section .idea_box > h2{
+    margin-bottom: 10px;
+  }
+  #contact_section .idea_box > p{
+    margin-bottom: 15px;
+  }
+  
+  #contact_section .idea_input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #contact_section .idea_input input, textarea{
+    box-sizing: border-box;
+    padding: 15px 25px;
+    border: none;
+    color: var(--colorOne);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px; 
+  }
+  
+  #contact_section .idea_input textarea{
+    height: 150px;
+  }
+  #contact_section .idea_input .idea_btn{
+    background-color: var(--colorOne);
+    color: var(--lightColor);
+    cursor:pointer;
+  }
+  #contact_section .idea_input .idea_btn:hover{
+    box-shadow: var(--boxShadow);
+  }
+  
+  #contact_section .about_me{
+    width: 650px;
+    background-color: var(--colorOne);
+    color: var(--lightColor);
+    box-sizing: border-box;
+    padding: 60px 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  #contact_section .about_me{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+  }
+  
+  #contact_section .about_me > div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  #contact_section .about_me > div img{
+    border-radius: 20px;
+    height: 200px;
+  }
+    
+  #contact_section .about_me > div p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  #contact_section .about_me > div span{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  /* contact section styles ended */
