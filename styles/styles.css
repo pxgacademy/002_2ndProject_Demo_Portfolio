@@ -121,3 +121,56 @@ h2{
     color: var(--lightColor);
   }
   /* nav section styles ended */
+
+  /* hero section styles started */
+#hero_container{
+    background-color: var(--ColorTwo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #hero_container #hero{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-top: 70px;
+  }
+  
+  #hero_container #hero #hero_info{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #hero_container #hero #hero_info h1{
+    font-size: 90px;
+    color: var(--colorOne);
+  }
+  #hero_container #hero #hero_info h1 span{
+    color: var(--colorThree);
+    font-family: "Permanent Marker", cursive;
+    font-size: 85px;
+    text-transform: uppercase;
+  }
+  
+  #hero_container #hero button{
+    background-color: var(--colorOne);
+    color: var(--lightColor);
+  }
+  #hero_container #hero button:hover{
+    background-color: var(--lightColor);
+    color: var(--colorOne);
+  }
+  #hero_container #hero #hero_img{
+    width: 480px;
+  }
+  
+  #hero_container #hero #hero_img img{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: var(--boxShadow);
+  }
+  /* hero section styles ended */
