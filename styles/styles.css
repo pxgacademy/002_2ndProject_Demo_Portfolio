@@ -308,5 +308,86 @@ h2{
   #portfolio_foot p{
     color: var(--lightColor);
   }
-  
   /* portfolio section styles ended */
+
+  /* about section styles started */
+#about_section{
+    background-color: var(--ColorTwo);
+    padding: 50px;
+  }
+  
+  #about_container{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  
+  #about_container .about_content{
+    width: 700px;
+    background-color: var(--colorOne);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+    color: var(--lightColor);
+  }
+  
+  #about_container .about_content span{
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  #about_container .about_content p{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #about_container .about_content img{
+    width: 30px;
+    margin: 5px 10px 0px 0px;
+  }
+  
+  
+  #about_container .counter{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 150px;
+  }
+  
+  #about_container .counter span{
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--colorOne);
+  }
+  #about_container .counter p{
+    font-size: 80px;
+    font-weight: 800;
+    color: var(--colorThree);
+  }
+  
+  #about_container .counter .margin{
+    margin-bottom: 40px;
+  }
+  
+  #about_container .awards_content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  
+  #about_container .awards_content h2{
+    color: var(--colorOne);
+    font-size: 50px;
+    font-weight: 800;
+  }
+  /* about section styles ended */
+
+  
