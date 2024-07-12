@@ -57,3 +57,67 @@ h2{
 }
 
 /* global styles ended */
+
+/* nav section styles started */
+#nav{
+    background-color: var(--colorOne);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #nav_container{
+    width: 1300px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #nav_container #logo h3{
+    color: var(--lightColor);
+    font-size: 30px;
+  }
+  
+  
+  #nav_container #logo h3 span{
+    font-style: italic;
+    color: var(--colorThree);
+  }
+  
+  #nav_container #main_menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #nav_container #main_menu ul li{
+    padding: 10px;
+    list-style: none;
+  }
+  
+  #nav_container #main_menu ul li a{
+      text-decoration: none;
+      color: var(--lightColor);
+      font-size: 18px;
+      font-weight: 400;
+      padding: 10px 15px;
+      border-radius: 7px;
+      box-shadow: var(--boxShadow);
+      transition: 0.3s;
+    }
+    
+    #nav_container #main_menu ul li a:hover{
+        padding: 15px 25px;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--colorOne);
+        background-color: var(--colorThree);
+    }
+    
+  #nav_container .resume_pdf button:hover{
+    background-color: var(--colorThree);
+    color: var(--lightColor);
+  }
+  /* nav section styles ended */
