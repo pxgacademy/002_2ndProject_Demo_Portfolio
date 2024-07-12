@@ -215,3 +215,98 @@ h2{
     list-style:square;
   }
   /* skills section styles ended */
+
+  /* portfolio section styles started */
+#portfolio_section{
+    background-color: var(--colorOne);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px dashed var(--ColorTwo);
+  }
+  
+  #portfolio{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-top: 70px;
+    gap: 50px;
+  }
+  
+  #portfolio #Portfolio_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 600px;
+    text-align: center;
+  }
+  #portfolio #Portfolio_head h3{
+    font-size: 50px;
+    color:var(--lightColor);
+  }
+  #portfolio #Portfolio_head p{
+    color:var(--lightColor);
+  }
+  #portfolio #portfolio_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+  
+  #portfolio #portfolio_card .pf_card_design{
+    width: 340px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: var(--boxShadow);
+    padding-bottom: 20px;
+    background-color: var(--lightColor);
+    
+  }
+  
+  #portfolio_card .pf_card_design .pf_img img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  #portfolio #portfolio_card .pf_card_design h4{
+    font-size: 20px;
+    color: var(--colorOne);
+  }
+  #portfolio #portfolio_card .pf_card_design p{
+    color: var(--colorOne);
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  #portfolio_foot{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 10px 0px;
+  }
+  
+  #portfolio_foot h3{
+    color: var(--lightColor);
+    font-size: 55px;
+    font-weight: 800;
+  }
+  #portfolio_foot p{
+    color: var(--lightColor);
+  }
+  
+  /* portfolio section styles ended */
