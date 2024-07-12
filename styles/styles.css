@@ -174,3 +174,44 @@ h2{
     box-shadow: var(--boxShadow);
   }
   /* hero section styles ended */
+
+  /* skills section styles started */
+#skills_section{
+    background-color: var(--colorOne);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #skills_section #mySkills{
+    width: 1200px;
+    display: flex;
+    padding: 50px 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #skills_section #mySkills .skills_col{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--lightColor);
+  }
+  
+  #skills_section #mySkills .skills_col span{
+    font-size: 25px;
+  }
+  #skills_section #mySkills .skills_col h2{
+    font-size: 45px;
+  }
+  #skills_section #mySkills .skills_col button{
+    padding: 12px 35px;
+  }
+  
+  #skills_section #mySkills .skills_col ul li{
+    font-size: 18px;
+    line-height: 30px;
+    list-style:square;
+  }
+  /* skills section styles ended */
