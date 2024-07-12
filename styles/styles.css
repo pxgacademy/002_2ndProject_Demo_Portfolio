@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* global styles started */
+
+:root{
+  --colorOne: rgba(90, 30, 130, 1);
+  --ColorTwo: rgba(255, 195, 255, 1);
+  --colorThree: rgba(255, 88, 255, 1);
+  --lightColor: rgba(255, 255, 255, 1);
+  --boxShadow: 0 0 8px rgba(20, 20, 20, 0.4);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Work Sans", sans-serif;
+  color: var(--colorOne);
+  width: 1300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+.btn{
+  padding: 12px 15px;
+  background-color: var(--lightColor);
+  color: var(--colorOne);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  box-shadow: var(--boxShadow);
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background-color: var(--colorThree);
+  color: var(--lightColor);
+}
+
+.paragraph{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* global styles ended */
